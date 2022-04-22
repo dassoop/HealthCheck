@@ -5,7 +5,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_PASSWORD=root
-      - MYSQL_DATABASE=deployDocker
+      - MYSQL_DATABASE=templateDatabase
     ports:
       - '3307:3306'
 
